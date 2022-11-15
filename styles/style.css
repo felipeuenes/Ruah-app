@@ -54,6 +54,10 @@ body{
    
 }
 
+#myMenu{
+    z-index: 2;
+}
+
 .div-menu h2{
     font-family: Arial bold, Helvetica, sans-serif;
     text-align: center;
