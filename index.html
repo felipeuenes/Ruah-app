@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oração</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body id="myMenu">
+    <header>
+        <img src="images/barras-menu.png" alt="" id="myMenu">
+
+        <h1>Ruah app</h1>
+        <!-- <img src="images/SINAL.png" alt="" class="sinal"> -->
+
+        <section class="menu-animation">
+            <div class="div-menu ">
+                
+                <h2>Olá, Usuário</h2>
+
+                <table>
+                    <tr>
+                        <td>Pedidos de oração</td>
+                        <td>Orações Diversas</td>
+                    </tr>
+                    <tr>
+                        <td>Novenas</td>
+                        <td>Quem somos</td>
+                    </tr>
+                </table>
+             
+            </div>
+           </section>
+    
+           <script>
+            let myButtonMenu = document.querySelector("#myMenu");
+            let cardMenu = document.querySelector(".div-menu");
+    
+            myButtonMenu.addEventListener("click", () => {
+                cardMenu.classList.toggle("menu-animation")
+            })
+           </script>
+    </header>
+
+    <main>
+
+    </main>
+</body>
+</html>
