@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pedido de oração</title>
 
     <link rel="stylesheet" href="../styles/oracao.css">
 </head>
 <body>
 
     <header>
-        <img src="images/barras-menu.png" alt="" id="myMenu">
+        <img src="../images/barras-menu.png" alt="" id="myMenu">
 
         <h1>Ruah app</h1>
-        <!-- <img src="images/SINAL.png" alt="" class="sinal"> -->
+        <img src="../images/SINAL.png" alt="" class="sinal">
 
         <section class="menu-animation">
             <div class="div-menu ">
@@ -23,18 +23,43 @@
 
                 <table>
                     <tr>
-                         <a href=""><td>Pedidos de oração</td></a>
+                        <td><a href="../index.html">Home</a></td>
+                    </tr>
+                    <tr>
+                        <td> <a href="../pages/pedidoOracao.html">Pedido de oração</a> </td>
+                    </tr>
+                    <tr>
                         <td>Orações Diversas</td>
+                        
                     </tr>
                     <tr>
                         <td>Novenas</td>
+                    </tr>
+                    <tr>
                         <td>Quem somos</td>
+                        
                     </tr>
                         
                 </table>
              
             </div>
            </section>
+
+
+
+
+
+
+
+
+           <script>
+            let myButtonMenu = document.querySelector("#myMenu");
+            let cardMenu = document.querySelector(".div-menu");
+    
+            myButtonMenu.addEventListener("click", () => {
+                cardMenu.classList.toggle("menu-animation")
+            })
+           </script>
 
 
     
