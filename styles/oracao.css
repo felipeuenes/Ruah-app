@@ -1,1 +1,15 @@
 @import url(style.css);
+
+.oracoes td{
+    position: relative;
+    top: 30px;
+    width: 90%;
+    height: 30px;
+    color: black;
+    background-color: rgb(0, 0, 0);
+}
+
+main h1{
+    color: black;
+     
+}

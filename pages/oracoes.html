@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oração</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <title>Orações</title>
+
+    <link rel="stylesheet" href="../styles/oracao.css">
 </head>
-<body id="">
+<body>
+
+
     <header>
-        <img src="images/barras-menu.png" alt="" id="myMenu">
+        <img src="../images/barras-menu.png" alt="" id="myMenu">
 
         <h1>Ruah app</h1>
-        <img src="images/SINAL.png" alt="" class="sinal">
+        <img src="../images/SINAL.png" alt="" class="sinal">
 
         <section class="menu-animation">
             <div class="div-menu ">
@@ -21,13 +24,13 @@
 
                 <table>
                     <tr>
-                        <td><a href="index.html">Home</a></td>
+                        <td><a href="../index.html">Home</a></td>
                     </tr>
                     <tr>
-                        <td> <a href="pages/pedidoOracao.html">Pedido de oração</a> </td>
+                        <td> <a href="../pages/pedidoOracao.html">Pedido de oração</a> </td>
                     </tr>
                     <tr>
-                        <td><a href="pages/oracoes.html">Orações Diversas</a></td>
+                        <td><a href="oracoes.html">Orações Diversas</a></td>
                         
                     </tr>
                     <tr>
@@ -42,7 +45,9 @@
              
             </div>
            </section>
-    
+
+
+
            <script>
             let myButtonMenu = document.querySelector("#myMenu");
             let cardMenu = document.querySelector(".div-menu");
@@ -51,12 +56,25 @@
                 cardMenu.classList.toggle("menu-animation")
             })
            </script>
-    </header>
 
-    <main>
-        <div class="instagram">
+           <main>
+            
+            <h1>Orações Diversas</h1>
 
-        </div>
-    </main>
+           <table class="oracoes">
+            <tr>
+                <td>Pai Nosso</td>
+            </tr>
+            <tr>
+                <td>Ave Maria</td>
+            </tr>
+
+           </table>
+           
+
+           
+           </main>
+
+    
 </body>
 </html>
