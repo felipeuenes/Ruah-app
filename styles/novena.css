@@ -1,0 +1,22 @@
+@import url(style.css);
+
+
+.novenas{
+    background-color: bisque;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    z-index: -1;
+
+    
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main h1{
+    color: black;
+}
