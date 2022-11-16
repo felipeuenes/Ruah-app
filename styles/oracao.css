@@ -3,14 +3,17 @@
 .oracoes td{
     position: relative;
     top: 30px;
-    width: 90%;
-    height: 30px;
+    width: 8%;
+    height: 40px;
     color: black;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+
+    text-align: center;
 }
 
 main h1{
-    color: black;
-     
+    color: black;     
 }
-
+body{
+    background-color: rgb(255, 152, 152);
+}
