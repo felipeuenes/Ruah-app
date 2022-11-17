@@ -2,13 +2,13 @@
 
 .oracoes td{
     position: relative;
-    top: 30px;
+    top: 60px;
     width: 8%;
     height: 40px;
     color: black;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(219, 219, 219);
 
-    z-index: -1;
+    z-index: 1;
     text-align: center;
 
     
@@ -16,9 +16,13 @@
 
 main h1{
     color: black;     
+    position: relative;
+    top: 50px;
+    text-align: center;
+    z-index: -1;
 }
 body{
-    background-color: rgb(255, 152, 152);
+    /* background-color: rgb(255, 152, 152); */
     font-family: Arial, Helvetica, sans-serif;
 }
 
